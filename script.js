@@ -82,7 +82,8 @@ document.addEventListener('DOMContentLoaded', () => {
             low_b4_title: "4. Instalación de Precisión",
             low_b4_desc: "Nuestras cuadrillas instalan apliques, frentes de armarios y cabeceros con tolerancias milimétricas y herramientas profesionales.",
             low_b5_title: "5. Certificación y Entrega",
-            low_b5_desc: "Limpiamos cada espacio con aspiración industrial y entr            local_subtitle: "Presencia Internacional",
+            low_b5_desc: "Limpiamos cada espacio con aspiración industrial y entregamos un boletín técnico de calidad y correcto funcionamiento listo para el huésped.",
+            local_subtitle: "Presencia Internacional",
             local_title: "Logística Sin Fronteras en el Sector Contract Europeo.",
             local_desc: "Movilizamos nuestras cuadrillas técnicas y coordinamos el transporte de herrajes, luminarias y mobiliario desde nuestra central logística en España hacia los principales enclaves del turismo del lujo europeo.",
             local_c1_title: "España",
@@ -134,12 +135,12 @@ document.addEventListener('DOMContentLoaded', () => {
             port_meta_val_8: "Cristal y Latón",
 
             port_title_5: "Hotel Sofitel de Lisboa",
-            port_tag_5: "Sillas y Butacas",
+            port_tag_5: "Suites de Lujo",
             port_loc_5: "Lisboa, Portugal",
-            port_desc_5: "Ensamblaje, colocación y distribución técnica de sillones a medida, sillas ergonómicas de hotel y butacas de diseño en las zonas de descanso y suites del Hotel Sofitel de Lisboa, Portugal.",
-            port_meta_lbl_9: "Mobiliario",
-            port_meta_val_9: "Premium Seating",
-            port_meta_lbl_10: "Eficiencia",
+            port_desc_5: "Instalación técnica de cabeceros integrados, luminarias de diseño y mobiliario premium en las suites de lujo del Hotel Sofitel de Lisboa, Portugal.",
+            port_meta_lbl_9: "Suite Premium",
+            port_meta_val_9: "Acabado Contract",
+            port_meta_lbl_10: "Precisión",
             port_meta_val_10: "Instalación Integral",
 
             contact_subtitle: "CONTACTO Y CONSULTAS",
@@ -306,12 +307,12 @@ document.addEventListener('DOMContentLoaded', () => {
             port_meta_val_8: "Crystal & Brass",
  
             port_title_5: "Sofitel Lisbon Hotel",
-            port_tag_5: "Seating & Lounges",
+            port_tag_5: "Luxury Suites",
             port_loc_5: "Lisbon, Portugal",
-            port_desc_5: "Assembly, placement, and technical layout of custom armchairs, ergonomic hotel chairs, and designer lounge seating in the relaxation zones and suites of the Sofitel Lisbon Hotel in Portugal.",
-            port_meta_lbl_9: "Furniture",
-            port_meta_val_9: "Premium Seating",
-            port_meta_lbl_10: "Scope",
+            port_desc_5: "Technical installation of integrated headboards, designer lighting, and premium furniture in the luxury suites of the Sofitel Lisbon Hotel in Portugal.",
+            port_meta_lbl_9: "Premium Suite",
+            port_meta_val_9: "Contract Finish",
+            port_meta_lbl_10: "Precision",
             port_meta_val_10: "Full Installation",
  
             contact_subtitle: "CONTACT & INQUIRIES",
@@ -406,7 +407,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     ambienceBtn.addEventListener('click', () => {
         bodyElement.classList.toggle('ambient-bright');
-        const currentMode = bodyElement.classList.contains('ambient-bright') ? 'Worklight Shift (Night Shift)' : 'Daylight Shift (Grid Day)';
+        const currentMode = bodyElement.classList.contains('ambient-bright') ? 'Daylight Shift (Grid Day - Light Theme)' : 'Worklight Shift (Night Shift - Dark Theme)';
         console.log(`[Toolbox Lighting System] Switched to: ${currentMode}`);
     });
 
