@@ -16,28 +16,28 @@
     --color-bg-main: #ffffff;        /* Pure drafting white */
     --color-bg-sec: #f8fafc;         /* Crisp slate white */
     --color-bg-card: #ffffff;        /* White workbench cards */
-    --color-text-primary: #0a0e17;   /* Deep charcoal-black ink */
-    --color-text-secondary: #475569; /* Balanced graphite gray */
+    --color-text-primary: #2d2d2d;   /* Light black/charcoal ink from dossier */
+    --color-text-secondary: #5a6b82; /* Slate grayish balance */
     
     /* Branding Accent Colors */
-    --color-accent-gold: #ff5700;    /* High-vis safety orange */
-    --color-accent-gold-hover: #e04a00;
-    --color-accent-brass: #0a0e17;   /* Black industrial accents */
-    --color-accent-yellow: #ffc700;  /* Caution warning yellow */
-    --color-accent-glow: rgba(255, 87, 0, 0.08);
+    --color-accent-gold: #fcc02e;    /* Signature warm yellow from dossier */
+    --color-accent-gold-hover: #e5ab25;
+    --color-accent-brass: #2d2d2d;   /* Light black industrial accents */
+    --color-accent-yellow: #fcc02e;  /* Caution warning yellow */
+    --color-accent-glow: rgba(252, 192, 46, 0.08);
     
     /* Blueprint Drafting Grid */
-    --color-grid-line: rgba(15, 23, 42, 0.05); /* Light gray drafting lines */
+    --color-grid-line: rgba(45, 45, 45, 0.05); /* Light gray drafting lines */
     
     /* Solid Outline Borders & Layout */
     --border-width-thick: 2.5px;
     --border-width-thin: 1px;
-    --border-color-primary: #0a0e17;
+    --border-color-primary: #2d2d2d;
     
     /* Flat Shadow Offsets */
-    --shadow-flat-sm: 3px 3px 0px #0a0e17;
-    --shadow-flat-md: 5px 5px 0px #0a0e17;
-    --shadow-flat-lg: 8px 8px 0px #0a0e17;
+    --shadow-flat-sm: 3px 3px 0px #2d2d2d;
+    --shadow-flat-md: 5px 5px 0px #2d2d2d;
+    --shadow-flat-lg: 8px 8px 0px #fcc02e; /* Warm yellow solid offset shadow */
     
     /* Typography */
     --font-heading: 'Outfit', sans-serif;
@@ -48,34 +48,34 @@
     --border-radius-md: 6px;
     --border-radius-lg: 8px;
     
-    --border-glow: 0 0 0 4px rgba(255, 87, 0, 0.2);
+    --border-glow: 0 0 0 4px rgba(252, 192, 46, 0.2);
     --transition-snappy: all 0.18s cubic-bezier(0.25, 1, 0.5, 1);
     
     /* Extra Theme-Specific Tokens */
     --color-border-subtle: #cbd5e1;
     --color-header-bg: rgba(255, 255, 255, 0.96);
-    --color-header-border: #0a0e17;
+    --color-header-border: #2d2d2d;
     --color-hero-overlay-1: rgba(255, 255, 255, 0.45);
     --color-hero-overlay-2: rgba(255, 255, 255, 0.88);
-    --color-badge-bg: #0a0e17; /* High contrast black label */
+    --color-badge-bg: #2d2d2d; /* High contrast light-black badge */
     --color-input-bg: #ffffff;
-    --color-input-border: #0a0e17;
+    --color-input-border: #2d2d2d;
 }
 
 /* Alternate Theme Modifiers - Worklight Orange (Deep Navy Blueprint Dark Theme) */
 body.ambient-bright {
-    --color-bg-main: #0c0f17;        /* Blueprint deep slate-blue */
-    --color-bg-sec: #131826;         /* Dark grid background */
-    --color-bg-card: #181e2e;        /* Dark graphite cards */
+    --color-bg-main: #1e222b;        /* Deep slate-gray charcoal dark theme */
+    --color-bg-sec: #252932;         /* Darker grid background */
+    --color-bg-card: #2a2e38;        /* Slate graphite cards */
     --color-text-primary: #f8fafc;   /* White technical print */
     --color-text-secondary: #94a3b8; /* Pale slate technical text */
     
     /* Branding Accent Colors */
-    --color-accent-gold: #ff6b00;    /* Saturated glowing safety orange */
-    --color-accent-gold-hover: #ff8522;
-    --color-accent-brass: #ff6b00;   /* Orange industrial accents */
-    --color-accent-yellow: #ffc700;
-    --color-accent-glow: rgba(255, 107, 0, 0.15);
+    --color-accent-gold: #fcc02e;    /* Signature warm yellow from dossier */
+    --color-accent-gold-hover: #ffd256;
+    --color-accent-brass: #fcc02e;   /* Yellow industrial accents */
+    --color-accent-yellow: #fcc02e;
+    --color-accent-glow: rgba(252, 192, 46, 0.15);
     
     /* Glowing Blueprint Grid */
     --color-grid-line: rgba(255, 255, 255, 0.045); /* Soft glowing white draft lines */
@@ -83,19 +83,19 @@ body.ambient-bright {
     /* Solid Outline Borders & Layout */
     --border-color-primary: #f8fafc;
     
-    /* Flat Shadow Offsets (Inverted to White or safety orange) */
+    /* Flat Shadow Offsets (Inverted to White or yellow) */
     --shadow-flat-sm: 3px 3px 0px #f8fafc;
     --shadow-flat-md: 5px 5px 0px #f8fafc;
-    --shadow-flat-lg: 8px 8px 0px #ff6b00;
+    --shadow-flat-lg: 8px 8px 0px #fcc02e; /* Warm yellow solid offset shadow */
     
-    --border-glow: 0 0 0 4px rgba(255, 107, 0, 0.35);
+    --border-glow: 0 0 0 4px rgba(252, 192, 46, 0.35);
     --color-border-subtle: #334155;
-    --color-header-bg: rgba(12, 15, 23, 0.96);
+    --color-header-bg: rgba(30, 34, 43, 0.96);
     --color-header-border: #f8fafc;
-    --color-hero-overlay-1: rgba(12, 15, 23, 0.55);
-    --color-hero-overlay-2: rgba(12, 15, 23, 0.92);
-    --color-badge-bg: #ff6b00; /* Safety orange label badge */
-    --color-input-bg: #131826;
+    --color-hero-overlay-1: rgba(30, 34, 43, 0.55);
+    --color-hero-overlay-2: rgba(30, 34, 43, 0.92);
+    --color-badge-bg: #fcc02e; /* Yellow label badge */
+    --color-input-bg: #252932;
     --color-input-border: #f8fafc;
 }
 
