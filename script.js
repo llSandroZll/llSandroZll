@@ -178,7 +178,7 @@ document.addEventListener('DOMContentLoaded', () => {
             success_desc: "Tu solicitud ha sido catalogada y enviada a nuestra oficina en Campo de Criptana. Coordinaremos la planificación de instaladores para contactarte a la mayor brevedad. ¡Gracias por confiar en Toolbox S.L.!",
             success_btn: "Volver a la Web",
             
-            footer_desc: "Toolbox S.L. se especializa en la instalación y montaje de luminarias, mobiliario de alta gama y accesorios contract para el sector hotelero e institucional de lujo. Arraigados en Campo de Criptana, prestando servicio internacional y nacional."s, mobiliario de alta gama y accesorios contract para el sector hotelero e institucional de lujo. Arraigados en Campo de Criptana, prestando servicio local e internacional.",
+            footer_desc: "Toolbox S.L. se especializa en la instalación y montaje de luminarias, mobiliario de alta gama y accesorios contract para el sector hotelero e institucional de lujo. Arraigados en Campo de Criptana, prestando servicio internacional y nacional.",
             footer_nav_title: "Navegación",
             footer_contact_title: "Oficinas y Contacto",
             footer_privacy: "Política de Privacidad (RGPD)",
