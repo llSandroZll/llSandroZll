@@ -17,9 +17,8 @@ document.addEventListener('DOMContentLoaded', () => {
         es: {
             site_title: "Toolbox S.L. | Montaje de Mobiliario Hotelero y Instalación de Luminarias Contract",
             partners_title: "PROVEEDORES Y SOCIOS DE CONFIANZA:",
-            nav_home: "Inicio",
-            nav_heritage: "Quiénes Somos",
-            nav_services: "Servicios B2B",
+            nav_home: "Inicio",            nav_heritage: "Quiénes Somos",
+            nav_services: "Servicios Contract",
             nav_low_season: "Proceso de Trabajo",
             nav_local: "Manitas Local",
             nav_portfolio: "Trabajos Destacados",
@@ -33,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
             hero_stat_1: "Años de Experiencia",
             hero_stat_2: "Habitaciones Equipadas",
             hero_stat_3: "Eficiencia en Temporada Baja",
-
+ 
             heritage_badge: "Socios fundadores: Harvey Braga y Enyerson Gómez. Sede de coordinación logística y técnica en Campo de Criptana.",
             heritage_subtitle: "Quiénes Somos y Historia",
             heritage_title: "Trayectoria Técnica de Toolbox S.L.",
@@ -41,8 +40,8 @@ document.addEventListener('DOMContentLoaded', () => {
             heritage_quote: "\"En Toolbox, cada miembro del equipo es una herramienta clave, ¡y juntos damos vida a espacios extraordinarios! Llevamos la precisión del milímetro en nuestra caja de soluciones.\"",
             heritage_p2: "Conscientes de que la temporada baja es el momento crítico para las reformas hoteleras en destinos como Ibiza, Mallorca, Marbella o Madrid, movilizamos nuestros equipos técnicos para completar el montaje de mobiliario hotelero, luminarias complejas, cabeceros alistonados y accesorios de diseño en plazos extremadamente ajustados. Nuestra red de proveedores de confianza y nuestra experiencia de subcontratación nos posiciona como el partner perfecto para los proyectos más ambiciosos.",
             heritage_btn: "Ver Nuestros Servicios",
-
-            services_subtitle: "Nuestros Servicios B2B",
+ 
+            services_subtitle: "Nuestros Servicios Contract",
             services_title: "Instalación y Ajuste de Equipamiento Hotelero de Lujo",
             services_desc: "Ofrecemos soluciones integrales y un servicio profesional y personalizado para el montaje de elementos esenciales de confort y estética en hoteles de cinco estrellas.",
             
@@ -123,7 +122,7 @@ document.addEventListener('DOMContentLoaded', () => {
             contact_est: "MÁS DE 10 AÑOS TRANSFORMANDO ESPACIOS EN LUGARES DE ENSUEÑO",
 
             form_title: "Iniciar Consulta de Proyecto",
-            opt_profile_gc: "Gestión Hotelera / Diseñadores e Interiorismo (Proyecto B2B)",
+            opt_profile_gc: "Gestión Hotelera / Diseñadores e Interiorismo (Proyecto Contract)",
             opt_profile_local: "Residente Local (Manitas a Domicilio / Campo de Criptana)",
             label_profile: "Perfil del Interesado",
             label_name: "Nombre Completo",
@@ -174,7 +173,7 @@ document.addEventListener('DOMContentLoaded', () => {
             partners_title: "TRUSTED SUPPLIERS & PARTNERS:",
             nav_home: "Home",
             nav_heritage: "About Us",
-            nav_services: "B2B Services",
+            nav_services: "Contract Services",
             nav_low_season: "Work Process",
             nav_local: "Local Handyman",
             nav_portfolio: "Featured Works",
@@ -195,9 +194,9 @@ document.addEventListener('DOMContentLoaded', () => {
             heritage_p1: "Toolbox S.L. is a limited liability company formed by two founding partners: Harvey Braga and Enyerson Gómez, with a proven track record of over 10 years of experience in the installation and assembly of equipment for first-class hotels. Harvey Braga brings invaluable experience from his years working as a primary subcontractor for prestigious lighting manufacturers like Grantlamp S.L. (leading manufacturer of designer lamps and electric lighting fixtures) and ALVE (prominent in lighting design and retail contract consulting). This strong technical background enables them to lead efficient crews across all luxury hotel finishes.",
             heritage_quote: "\"At Toolbox, each member of the team is a key tool, and together we bring extraordinary spaces to life! We carry millimeter precision in our box of solutions.\"",
             heritage_p2: "Knowing that the off-season is the critical window for hotel renovations in premier destinations like Ibiza, Mallorca, Marbella, and Madrid, we deploy our technical crews to complete hotel furniture assembly, complex lighting arrays, slatted headboards, and designer bathroom fixtures within record schedules. Our trusted supplier network and subcontracting heritage make us the perfect partner for high-end hospitality projects.",
-            heritage_btn: "View B2B Services",
+            heritage_btn: "View Contract Services",
 
-            services_subtitle: "Our B2B Services",
+            services_subtitle: "Our Contract Services",
             services_title: "Installation & Tuning of Luxury Hotel Equipment",
             services_desc: "We offer comprehensive solutions and professional, personalized service for fitting the essential elements of comfort and aesthetics in five-star hotels.",
             
@@ -278,7 +277,7 @@ document.addEventListener('DOMContentLoaded', () => {
             contact_est: "OVER 10 YEARS OF EXPERIENCE TRANSFORMING HOSPITALITY SPACES",
 
             form_title: "Start a Project Consultation",
-            opt_profile_gc: "Hotel Management / Interior Designers (B2B Project)",
+            opt_profile_gc: "Hotel Management / Interior Designers (Contract Project)",
             opt_profile_local: "Local Resident (Handyman Services / Campo de Criptana)",
             label_profile: "Interested Profile",
             label_name: "Full Name",
