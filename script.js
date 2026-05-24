@@ -82,20 +82,18 @@ document.addEventListener('DOMContentLoaded', () => {
             low_b4_title: "4. Instalación de Precisión",
             low_b4_desc: "Nuestras cuadrillas instalan apliques, frentes de armarios y cabeceros con tolerancias milimétricas y herramientas profesionales.",
             low_b5_title: "5. Certificación y Entrega",
-            low_b5_desc: "Limpiamos cada espacio con aspiración industrial y entregamos un boletín técnico de calidad y correcto funcionamiento listo para el huésped.",
- 
-            local_subtitle: "Manitas a domicilio en Campo de Criptana y Alrededores",
-            local_title: "Manitas de Confianza: El Rigor Hotelero en tu Hogar",
-            local_desc: "Cuando no estamos de despliegue en grandes suites de Europa, ponemos a tu disposición el mismo nivel de detalle, calidad y materiales excelentes para tu hogar. Confía en Toolbox S.L. para tus pequeñas reformas y reparaciones locales con total confianza y rapidez.",
-            local_c1_title: "Restauración de Puertas de Madera",
-            local_c1_desc: "Lijado minucioso de puertas de madera exteriores en Ciudad Real. Tratamiento protector contra el clima y barnizado de alta resistencia para embellecer tu fachada.",
-            local_c2_title: "Arreglo de Persianas y Mosquiteras",
-            local_c2_desc: "Reparación de persianas atascadas en Campo de Criptana, cambio de cintas rotas, lamas dañadas y motorización. Instalación de mosquiteras a medida enrollables y fijas.",
-            local_c3_title: "Fontanero de Confianza (Grifería y Cisternas)",
-            local_c3_desc: "Sustitución de griferías calcificadas por grifos antical de diseño ecológico, reparación rápida de cisternas con repuestos reforzados y montaje de columnas de ducha.",
-            local_c4_title: "Instalar Luces LED y Bombines de Seguridad",
-            local_c4_desc: "Instalación de luminarias LED, sustitución de mecanismos e interruptores fechados por placas modernas, y cambio de bombines por cilindros anti-bumping de alta seguridad.",
- 
+            low_b5_desc: "Limpiamos cada espacio con aspiración industrial y entr            local_subtitle: "Presencia Internacional",
+            local_title: "Logística Sin Fronteras en el Sector Contract Europeo.",
+            local_desc: "Movilizamos nuestras cuadrillas técnicas y coordinamos el transporte de herrajes, luminarias y mobiliario desde nuestra central logística en España hacia los principales enclaves del turismo del lujo europeo.",
+            local_c1_title: "España",
+            local_c1_desc: "Nuestra base operativa de coordinación. Despliegues de primer nivel en Madrid, Barcelona, Marbella, Mallorca e Ibiza, respondiendo de forma ágil a las reformas hoteleras nacionales.",
+            local_c2_title: "Portugal",
+            local_c2_desc: "Operaciones de montaje en Lisboa y el Algarve, colaborando activamente en la instalación técnica de luminarias de diseño para el prestigioso Hotel Sofitel.",
+            local_c3_title: "Italia",
+            local_c3_desc: "Rigor milimétrico en enclaves del diseño como Florencia, realizando la instalación integral de iluminación contract y mesas de restaurante exclusivas.",
+            local_c4_title: "",
+            local_c4_desc: "",
+
             portfolio_subtitle: "TRABAJOS DESTACADOS • PROYECTOS REALES",
             portfolio_title: "Garantía de Grandes Hoteles",
             
@@ -108,23 +106,23 @@ document.addEventListener('DOMContentLoaded', () => {
             port_meta_lbl_2: "Partners",
             port_meta_val_2: "Grantlamp & ALVE",
             
-            port_title_2: "W Barcelona & Six Senses",
-            port_tag_2: "Acabados y Luminarias",
-            port_loc_2: "Ibiza & Barcelona, España",
-            port_desc_2: "Instalación de luminarias de lujo, apliques de cabecero de cama de diseño y tiras LED indirectas en el Hotel W Barcelona, Hotel One Shot y en Six Senses Ibiza.",
+            port_title_2: "Sistemas de Smart TV",
+            port_tag_2: "Montaje Audiovisual",
+            port_loc_2: "Madrid & Barcelona, España",
+            port_desc_2: "Instalación de soportes de pared articulados reforzados, guiado oculto de cableado y montaje nivelado de televisores de alta gama y Smart TVs en suites presidenciales.",
             port_meta_lbl_3: "Fases Certificadas",
             port_meta_val_3: "100% Calidad",
             port_meta_lbl_4: "Equipamiento",
             port_meta_val_4: "Suites de Ensueño",
             
-            port_title_3: "Alcudia Palace Muro",
-            port_tag_3: "Mobiliario y Baños",
-            port_loc_3: "Mallorca, Islas Baleares",
-            port_desc_3: "Montaje de alistonados decorativos de nogal, cabeceros retroiluminados, ensamblaje de frentes de armario y colocación de accesorios de baño contract en Alcudia Hotel Palace de Muro.",
+            port_title_3: "Hotel Westin Excelsior",
+            port_tag_3: "Mesas y Comedores",
+            port_loc_3: "Florencia, Italia",
+            port_desc_3: "Ensamblaje e instalación de mesas de comedor de mármol a medida, luminarias suspendidas de gran formato y mobiliario premium en el restaurante del Hotel Westin Excelsior en Florencia, Italia.",
             port_meta_lbl_5: "Control",
-            port_meta_val_5: "180 Habitaciones",
+            port_meta_val_5: "Mesas y Sillas",
             port_meta_lbl_6: "Garantía",
-            port_meta_val_6: "Instalación Técnica",
+            port_meta_val_6: "Montaje Contract",
 
             port_title_4: "Rosewood Grand Lobby",
             port_tag_4: "Chandeliers de Lujo",
@@ -135,27 +133,24 @@ document.addEventListener('DOMContentLoaded', () => {
             port_meta_lbl_8: "Materiales",
             port_meta_val_8: "Cristal y Latón",
 
-            port_title_5: "Alcudia Premium Suites",
-            port_tag_5: "Accesorios y Metales",
-            port_loc_5: "Mallorca, Islas Baleares",
-            port_desc_5: "Despliegue e instalación de griferías ecológicas monomando antical y apliques de pared de latón cepillado en baños y suites exclusivas.",
-            port_meta_lbl_9: "Accesorios",
-            port_meta_val_9: "Negro Mate",
+            port_title_5: "Hotel Sofitel de Lisboa",
+            port_tag_5: "Sillas y Butacas",
+            port_loc_5: "Lisboa, Portugal",
+            port_desc_5: "Ensamblaje, colocación y distribución técnica de sillones a medida, sillas ergonómicas de hotel y butacas de diseño en las zonas de descanso y suites del Hotel Sofitel de Lisboa, Portugal.",
+            port_meta_lbl_9: "Mobiliario",
+            port_meta_val_9: "Premium Seating",
             port_meta_lbl_10: "Eficiencia",
-            port_meta_val_10: "Grifo Antical",
- 
-            contact_subtitle: "CONTACTO Y RESERVAS",
+            port_meta_val_10: "Instalación Integral",
+
+            contact_subtitle: "CONTACTO Y CONSULTAS",
             contact_title: "Inicia tu Consulta de Proyecto con Toolbox S.L.",
-            contact_desc: "Planificamos los suministros de los fabricantes y el despliegue de cuadrillas con antelación en nuestra base de Campo de Criptana. Escríbenos hoy para asegurar tu plaza o solicitar asistencia técnica.",
+            contact_desc: "Planificamos los suministros de los fabricantes y el despliegue de cuadrillas con antelación en nuestra base de Campo de Criptana. Escríbenos hoy para asegurar tu plaza.",
             contact_h1: "Base de Coordinación y Logística",
             contact_h2: "Oficina Técnica",
             contact_h3: "Teléfonos de Contacto Directo",
             contact_est: "MÁS DE 10 AÑOS TRANSFORMANDO ESPACIOS EN LUGARES DE ENSUEÑO",
- 
+
             form_title: "Iniciar Consulta de Proyecto",
-            opt_profile_gc: "Gestión Hotelera / Diseñadores e Interiorismo (Proyecto de Montaje)",
-            opt_profile_local: "Residente Local (Manitas a Domicilio / Campo de Criptana)",
-            label_profile: "Perfil del Interesado",
             label_name: "Nombre Completo",
             label_email: "Correo Electrónico",
             label_hotel: "Hotel / Empresa / Estudio de Interiorismo",
@@ -175,24 +170,14 @@ document.addEventListener('DOMContentLoaded', () => {
             opt_time_next: "Siguiente Temporada",
             opt_time_urgent: "Renovación Urgente",
             label_timing: "Plazo de Ejecución",
-            opt_l_srv_wood: "Restauración de Puertas de Madera",
-            opt_l_srv_shutters: "Arreglo de Persianas / Mosquiteras",
-            opt_l_srv_plumb: "Fontanería (Grifería y Cisterna Antical)",
-            opt_l_srv_lights: "Luces LED / Cambio de Bombín de Seguridad",
-            opt_l_srv_other: "Otros Trabajos de Manitas a Domicilio",
-            label_local_service: "Trabajo Solicitado",
-            opt_l_urg_now: "Lo antes posible / Urgente",
-            opt_l_urg_month: "Este mes",
-            opt_l_urg_flexible: "Flexible / Sin prisa",
-            label_local_urgency: "Urgencia del Servicio",
-            label_message: "Descríbenos tu necesidad o proyecto con detalle...",
+            label_message: "Descríbenos tu proyecto con detalle...",
             btn_submit: "Transmitir Consulta",
- 
+
             success_title: "Consulta Recibida con Éxito",
             success_desc: "Tu solicitud ha sido catalogada y enviada a nuestra oficina en Campo de Criptana. Coordinaremos la planificación de instaladores para contactarte a la mayor brevedad. ¡Gracias por confiar en Toolbox S.L.!",
             success_btn: "Volver a la Web",
-             
-            footer_desc: "Toolbox S.L. se especializa en la instalación y montaje de luminarias, mobiliario de alta gama y accesorios contract para el sector hotelero e institucional de lujo. Arraigados en Campo de Criptana, prestando servicio local e internacional.",
+            
+            footer_desc: "Toolbox S.L. se especializa en la instalación y montaje de luminarias, mobiliario de alta gama y accesorios contract para el sector hotelero e institucional de lujo. Arraigados en Campo de Criptana, prestando servicio internacional y nacional."s, mobiliario de alta gama y accesorios contract para el sector hotelero e institucional de lujo. Arraigados en Campo de Criptana, prestando servicio local e internacional.",
             footer_nav_title: "Navegación",
             footer_contact_title: "Oficinas y Contacto",
             footer_privacy: "Política de Privacidad (RGPD)",
@@ -269,17 +254,17 @@ document.addEventListener('DOMContentLoaded', () => {
             low_b5_title: "5. Certification & Handover",
             low_b5_desc: "We thoroughly clean each space and issue a technical quality certification, delivering rooms completely ready for guest check-in.",
  
-            local_subtitle: "Trusted Local Handyman in Campo de Criptana",
-            local_title: "Handyman Services: Hotel-Grade Quality for Your Home",
-            local_desc: "When we are not deployed at premier European resorts, we bring the exact same precision, excellent materials, and quality standards to your local residence. Trust Toolbox S.L. for your home repairs and small upgrades with total confidence and speed.",
-            local_c1_title: "Wood Door Restoration",
-            local_c1_desc: "Precision sanding of exterior wood doors in Ciudad Real. Weather-proof protective treatment and high-durability varnishing to beautify your entrance.",
-            local_c2_title: "Shutter Repair & Insect Screens",
-            local_c2_desc: "Fast repair of stuck rolling shutters in Campo de Criptana, swapping broken straps, slats, and motorization. Custom roll-up insect screens installation.",
-            local_c3_title: "Trusted Plumber (Faucets & Cisterns)",
-            local_c3_desc: "Upgrading calcified bathroom hardware to designer eco-friendly faucets, rapid toilet cistern repairs with heavy-duty parts, and new shower columns.",
-            local_c4_title: "LED Lighting & Security Cylinders",
-            local_c4_desc: "Installing high-efficiency LED arrays, replacing outdated switches with designer plates, and installing high-security cylinder locks.",
+            local_subtitle: "International Presence",
+            local_title: "Seamless Logistics Across the European Contract Sector.",
+            local_desc: "We mobilize our specialized technical crews and coordinate the transportation of fittings, designer lighting, and custom furniture from our logistics center in Spain to Europe's premier luxury hubs.",
+            local_c1_title: "Spain",
+            local_c1_desc: "Our primary coordination base. First-class deployments in Madrid, Barcelona, Marbella, Mallorca, and Ibiza, responding with high agility to national hotel renovations.",
+            local_c2_title: "Portugal",
+            local_c2_desc: "Active mounting operations in Lisbon and the Algarve, collaborating on the high-end lighting installations for the prestigious Sofitel Lisbon Hotel.",
+            local_c3_title: "Italy",
+            local_c3_desc: "Millimeter precision in historical design hubs like Florence, completing full integrations of luxury contract lighting and bespoke restaurant dining tables.",
+            local_c4_title: "",
+            local_c4_desc: "",
  
             portfolio_subtitle: "RECENT WORKS • REAL HOTELS",
             portfolio_title: "Proven Luxury Hospitality Pedigree",
@@ -293,24 +278,24 @@ document.addEventListener('DOMContentLoaded', () => {
             port_meta_lbl_2: "Partners",
             port_meta_val_2: "Grantlamp & ALVE",
             
-            port_title_2: "W Barcelona & Six Senses",
-            port_tag_2: "Suite Finishes & Lamps",
-            port_loc_2: "Ibiza & Barcelona, Spain",
-            port_desc_2: "Installing designer bedside pendants, custom cove lighting arrays, and bedroom finishes in W Barcelona, One Shot, and Six Senses Ibiza.",
+            port_title_2: "Smart TV Systems",
+            port_tag_2: "Audiovisual Mounting",
+            port_loc_2: "Madrid & Barcelona, Spain",
+            port_desc_2: "Installing heavy-duty articulating wall mounts, concealed cable routing, and precise leveling of high-end Smart TVs in luxury presidential suites.",
             port_meta_lbl_3: "Certified Work",
             port_meta_val_3: "100% Quality",
             port_meta_lbl_4: "Scope",
             port_meta_val_4: "Exquisite Suites",
             
-            port_title_3: "Alcudia Palace Muro",
-            port_tag_3: "Furniture & Bath",
-            port_loc_3: "Mallorca, Balearic Islands",
-            port_desc_3: "Mounting slatted walnut panels, integrated retro-lit timber headboards, custom wardrobe doors, and bathroom hardware in Alcudia Palace de Muro.",
+            port_title_3: "Westin Excelsior Hotel",
+            port_tag_3: "Dining & Tables",
+            port_loc_3: "Florence, Italy",
+            port_desc_3: "Assembly and installation of custom marble dining tables, large-format suspended lighting fixtures, and premium furniture in the restaurant of the Westin Excelsior Hotel in Florence, Italy.",
             port_meta_lbl_5: "Scope",
-            port_meta_val_5: "180 Rooms",
+            port_meta_val_5: "Tables & Chairs",
             port_meta_lbl_6: "Warranty",
-            port_meta_val_6: "Technical Fitting",
-
+            port_meta_val_6: "Contract Fitting",
+ 
             port_title_4: "Rosewood Grand Lobby",
             port_tag_4: "Grand Chandeliers",
             port_loc_4: "Madrid, Spain",
@@ -319,65 +304,52 @@ document.addEventListener('DOMContentLoaded', () => {
             port_meta_val_7: "Calibrated",
             port_meta_lbl_8: "Materials",
             port_meta_val_8: "Crystal & Brass",
-
-            port_title_5: "Alcudia Premium Suites",
-            port_tag_5: "Hardware & Metals",
-            port_loc_5: "Mallorca, Balearic Islands",
-            port_desc_5: "Deployment and installation of designer anti-limescale eco-faucets and brushed brass wall sconces in premium bathrooms.",
-            port_meta_lbl_9: "Fittings",
-            port_meta_val_9: "Matte Black",
-            port_meta_lbl_10: "Efficiency",
-            port_meta_val_10: "Eco Faucets",
  
-            contact_subtitle: "CONTACT & BOOKINGS",
-            contact_title: "Start Your Project Inquiry with Toolbox S.L.",
-            contact_desc: "We coordinate manufacturer logistics and crew schedules months in advance at our Campo de Criptana base. Reach out today to secure your slot or request local service.",
-            contact_h1: "Coordination & Logistics Hub",
+            port_title_5: "Sofitel Lisbon Hotel",
+            port_tag_5: "Seating & Lounges",
+            port_loc_5: "Lisbon, Portugal",
+            port_desc_5: "Assembly, placement, and technical layout of custom armchairs, ergonomic hotel chairs, and designer lounge seating in the relaxation zones and suites of the Sofitel Lisbon Hotel in Portugal.",
+            port_meta_lbl_9: "Furniture",
+            port_meta_val_9: "Premium Seating",
+            port_meta_lbl_10: "Scope",
+            port_meta_val_10: "Full Installation",
+ 
+            contact_subtitle: "CONTACT & INQUIRIES",
+            contact_title: "Start Your Project Consultation with Toolbox S.L.",
+            contact_desc: "We coordinate manufacturer supplies and technician team schedules in advance at our Campo de Criptana center. Write to us today to book your renovation slot.",
+            contact_h1: "Logistics & Coordination Base",
             contact_h2: "Technical Office",
-            contact_h3: "Direct Phone Lines",
-            contact_est: "OVER 10 YEARS OF EXPERIENCE TRANSFORMING HOSPITALITY SPACES",
+            contact_h3: "Direct Inquiry Hotline",
+            contact_est: "OVER 10 YEARS OF TRANSFORMING SPACES INTO LUXURIOUS DESTINATIONS",
  
-            form_title: "Start a Project Consultation",
-            opt_profile_gc: "Hotel Management / Interior Designers (Fitting Project)",
-            opt_profile_local: "Local Resident (Handyman Services / Campo de Criptana)",
-            label_profile: "Interested Profile",
+            form_title: "Start Project Inquiry",
             label_name: "Full Name",
             label_email: "Email Address",
             label_hotel: "Hotel / Company / Interior Design Studio",
             opt_loc_balearic: "Ibiza & Formentera",
             opt_loc_mallorca: "Mallorca & Menorca",
             opt_loc_marbella: "Marbella & Costa del Sol",
-            opt_loc_europe: "Rest of Europe (Lisbon, Florence, etc.)",
-            opt_loc_other: "Other Spanish Region",
+            opt_loc_europe: "Resto of Europe (Lisbon, Florence, etc.)",
+            opt_loc_other: "Other Region of Spain",
             label_location: "Project Location",
-            opt_srv_lighting: "Lighting Installation (Lamps & LEDs)",
+            opt_srv_lighting: "Lighting Installation (Fixtures & LEDs)",
             opt_srv_doors: "Furniture Assembly & Wardrobes",
-            opt_srv_hardware: "Designer Hardware & Bath Accessories",
-            opt_srv_panels: "Wood Slat Wall Paneling & Trims",
-            opt_srv_full: "Full Suite Finishing Package",
-            label_service: "Required Service",
+            opt_srv_hardware: "Bathroom Hardware & Contract Accessories",
+            opt_srv_panels: "Timber Panelling & Wood Slatting",
+            opt_srv_full: "Full Suite Turnkey Installation",
+            label_service: "Requested Service",
             opt_time_upcoming: "Upcoming Low Season (Oct - Apr)",
-            opt_time_next: "Next Season",
+            opt_time_next: "Next Low Season",
             opt_time_urgent: "Urgent Renovation",
-            label_timing: "Execution Schedule",
-            opt_l_srv_wood: "Wood Door Restoration",
-            opt_l_srv_shutters: "Shutter Repairs / Screen Fitting",
-            opt_l_srv_plumb: "Plumbing (Designer Faucets & Cisterns)",
-            opt_l_srv_lights: "LED Lighting / High-Security Lock Swap",
-            opt_l_srv_other: "Other Handyman Tasks",
-            label_local_service: "Requested Task",
-            opt_l_urg_now: "As soon as possible / Urgent",
-            opt_l_urg_month: "Within this month",
-            opt_l_urg_flexible: "Flexible / No rush",
-            label_local_urgency: "Service Urgency",
-            label_message: "Please describe your project or needs in detail...",
+            label_timing: "Execution Timeline",
+            label_message: "Tell us about your project in detail...",
             btn_submit: "Transmit Inquiry",
  
-            success_title: "Inquiry Logged Successfully",
-            success_desc: "Your inquiry has been cataloged and sent to our Campo de Criptana technical office. We will coordinate our installation schedule and contact you shortly. Thank you for trusting Toolbox S.L.!",
-            success_btn: "Back to Site",
+            success_title: "Inquiry Received Successfully",
+            success_desc: "Your request has been filed and dispatched to our logistics headquarters in Campo Criptana. We will organize project schedules and reach back to you shortly. Thank you for choosing Toolbox S.L.!",
+            success_btn: "Return to Website",
              
-            footer_desc: "Toolbox S.L. specializes in the installation, mounting, and calibration of custom lighting, high-end furniture, and contract accessories for the hospitality sector. Rooted in Campo de Criptana, serving clients globally.",
+            footer_desc: "Toolbox S.L. specializes in the installation and assembly of luminaires, high-end furniture, and contract accessories for the luxury hospitality and institutional sectors. Rooted in Campo de Criptana, serving internationally and nationally.",
             footer_nav_title: "Navigation",
             footer_contact_title: "Offices & Contact",
             footer_privacy: "Privacy Policy (GDPR)",
@@ -417,9 +389,6 @@ document.addEventListener('DOMContentLoaded', () => {
             langEnBtn.classList.add('active');
             langEsBtn.classList.remove('active');
         }
-
-        // Keep form labels responsive to language
-        updateFormLabelsText(lang);
         
         console.log(`[Toolbox Translation Engine] Page translated to: ${lang.toUpperCase()}`);
     }
@@ -428,76 +397,8 @@ document.addEventListener('DOMContentLoaded', () => {
     langEsBtn.addEventListener('click', () => translatePage('es'));
     langEnBtn.addEventListener('click', () => translatePage('en'));
 
-    // --- 2. ADAPTIVE CONTACT FORM PROFILER ---
-    const formProfile = document.getElementById('form-profile');
-    const conditionalGCElements = document.querySelectorAll('.conditional-gc');
-    const conditionalLocalElements = document.querySelectorAll('.conditional-local');
-    const formMessageLabel = document.getElementById('form-message-label');
-
-    // Fields inside GC/Local to toggle required state
-    const gcSelects = [
-        document.getElementById('form-location'),
-        document.getElementById('form-service'),
-        document.getElementById('form-timing')
-    ];
-    const localSelects = [
-        document.getElementById('form-local-service'),
-        document.getElementById('form-local-urgency')
-    ];
-
-    function updateFormLabelsText(lang) {
-        if (!formProfile.value) return; // only run if profile is selected
-        
-        if (formProfile.value === 'contractor') {
-            formMessageLabel.innerHTML = lang === 'es' 
-                ? 'Descríbenos tu proyecto o necesidad con detalle...' 
-                : 'Tell us about your architectural goals in detail...';
-        } else {
-            formMessageLabel.innerHTML = lang === 'es' 
-                ? 'Descríbenos tu necesidad o arreglo en casa con detalle...' 
-                : 'Tell us about your home repair or upgrade needs in detail...';
-        }
-    }
-
-    formProfile.addEventListener('change', () => {
-        const selectedProfile = formProfile.value;
-
-        if (selectedProfile === 'contractor') {
-            // Show GC fields, Hide local fields
-            conditionalGCElements.forEach(el => el.style.display = 'block');
-            conditionalLocalElements.forEach(el => el.style.display = 'none');
-
-            // Apply B2B GC validation rules
-            gcSelects.forEach(select => select.setAttribute('required', ''));
-            localSelects.forEach(select => {
-                select.removeAttribute('required');
-                select.value = ""; // clear value
-            });
-            
-            // Toggle form message label
-            formMessageLabel.innerHTML = currentLang === 'es' 
-                ? 'Descríbenos tu proyecto o necesidad con detalle...' 
-                : 'Tell us about your architectural goals in detail...';
-
-        } else if (selectedProfile === 'local') {
-            // Hide GC fields, Show local fields
-            conditionalGCElements.forEach(el => el.style.display = 'none');
-            conditionalLocalElements.forEach(el => el.style.display = 'block');
-
-            // Apply Local Resident validation rules
-            localSelects.forEach(select => select.setAttribute('required', ''));
-            gcSelects.forEach(select => {
-                select.removeAttribute('required');
-                select.value = ""; // clear value
-            });
-            document.getElementById('form-hotel').value = ""; // clear hotel name
-
-            // Toggle form message label
-            formMessageLabel.innerHTML = currentLang === 'es' 
-                ? 'Descríbenos tu necesidad o arreglo en casa con detalle...' 
-                : 'Tell us about your home repair or upgrade needs in detail...';
-        }
-    });
+    // --- 2. DYNAMIC ACTIVE NAV LINK SCROLLER ---
+    // Section and navigation updates handled below.
 
     // --- 3. AMBIENCE LIGHTING CONTROLLER ---
     const ambienceBtn = document.getElementById('ambience-btn');
@@ -677,16 +578,6 @@ document.addEventListener('DOMContentLoaded', () => {
             
             // Reset form
             contactForm.reset();
-            
-            // Manually re-trigger the profile dropdown toggle reset to clean conditional fields
-            // Set it to contractor default style view hidden
-            conditionalGCElements.forEach(el => el.style.display = 'block');
-            conditionalLocalElements.forEach(el => el.style.display = 'none');
-            gcSelects.forEach(select => select.removeAttribute('required'));
-            localSelects.forEach(select => select.removeAttribute('required'));
-            formMessageLabel.innerHTML = currentLang === 'es' 
-                ? 'Descríbenos tu proyecto o necesidad con detalle...' 
-                : 'Tell us about your project or home upgrade in detail...';
         }, 1500);
     });
     
