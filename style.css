@@ -387,7 +387,9 @@ header.scrolled .nav-container {
 .logo-text {
     display: flex;
     flex-direction: column;
+    align-items: center;
     line-height: 1.05;
+    text-align: center;
 }
 .logo-main {
     font-weight: 900;
@@ -395,6 +397,7 @@ header.scrolled .nav-container {
     letter-spacing: 2px;
     color: var(--color-text-primary);
     transition: var(--transition-snappy);
+    white-space: nowrap;
 }
 .logo-sub {
     font-size: 0.6rem;
@@ -403,6 +406,7 @@ header.scrolled .nav-container {
     text-transform: uppercase;
     color: var(--color-accent-gold);
     transition: var(--transition-snappy);
+    white-space: nowrap;
 }
 .logo:hover .logo-main {
     color: var(--color-accent-gold);
@@ -1168,7 +1172,9 @@ body.ambient-bright .toggle-bulb {
     }
 }
 .form-group {
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     margin-bottom: 16px;
 }
 .form-group.full-width {
@@ -1209,28 +1215,26 @@ body.ambient-bright select.form-input {
     box-shadow: var(--border-glow);
 }
 .form-label {
-    position: absolute;
-    left: 14px;
-    top: 12px;
-    font-size: 0.9rem;
-    color: var(--color-text-secondary);
-    pointer-events: none;
-    transition: var(--transition-snappy);
-    font-weight: 600;
-}
-.form-input:focus ~ .form-label,
-.form-input:not(:placeholder-shown) ~ .form-label {
-    top: -10px;
-    left: 8px;
-    font-size: 0.7rem;
+    font-family: var(--font-heading);
+    font-size: 0.75rem;
     color: var(--color-accent-gold);
-    background-color: var(--color-bg-card);
-    padding: 0 4px;
     font-weight: 800;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.8px;
+    margin-bottom: 8px;
+    display: inline-block;
+    align-self: flex-start;
     border: var(--border-width-thin) solid var(--border-color-primary);
-    box-shadow: 1px 1px 0px var(--border-color-primary);
+    background-color: var(--color-bg-card);
+    padding: 3px 8px;
+    box-shadow: 2px 2px 0px var(--border-color-primary);
+    border-radius: var(--border-radius-sm);
+    transition: var(--transition-snappy);
+}
+.form-group:focus-within .form-label {
+    color: var(--color-accent-gold-hover);
+    box-shadow: 2px 2px 0px var(--color-accent-gold);
+    background-color: var(--color-bg-card);
 }
 textarea.form-input {
     min-height: 100px;
@@ -1614,9 +1618,7 @@ footer {
         font-size: 0.85rem;
     }
     .form-label {
-        font-size: 0.85rem;
-        top: 10px;
-        left: 12px;
+        font-size: 0.7rem;
     }
     
     /* Ensure submission success modal fits nicely on small devices */
