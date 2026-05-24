@@ -468,13 +468,24 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     }, {
-        threshold: 0.1,
-        rootMargin: '0px 0px -50px 0px'
+        threshold: 0.01, // Highly sensitive, triggers as soon as a single pixel enters the frame
+        rootMargin: '100px 0px' // Triggers early to pre-fade elements before scrolling
     });
     
     revealElements.forEach(element => {
         revealObserver.observe(element);
     });
+
+    // Bulletproof Fallback: In sandboxed iframes, preview panels, or nested scrolling containers,
+    // IntersectionObserver often fails to fire. Force-reveal elements after 350ms to ensure the site is never blank.
+    setTimeout(() => {
+        revealElements.forEach(element => {
+            if (!element.classList.contains('active')) {
+                element.classList.add('active');
+                console.log(`[Toolbox Fallback] Revealed element in iframe/preview container.`);
+            }
+        });
+    }, 350);
 
     // --- 7. PORTFOLIO CAROUSEL / SLIDER ---
     const slider = document.getElementById('portfolio-slider');
